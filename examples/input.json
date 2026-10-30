@@ -1,0 +1,7 @@
+{
+  "mode": "search",
+  "queries": [
+    "apify"
+  ],
+  "maxItems": 20
+}
