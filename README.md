@@ -2,7 +2,7 @@
 
 Search Hacker News stories and comments, export the front page, or extract every 'Who is hiring?' job post, filtered by keyword. Official HN Algolia API, LLM-ready Markdown, incremental mode.
 
-**[Run it on Apify →](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)** (pay per result, free Apify account to start)
+**[Run it on Apify →](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=hero)** (pay per result, free Apify account to start)
 
 
 **Hacker News Scraper** by Moxie: fast, reliable and polite, built on official/public data sources.
@@ -29,7 +29,7 @@ The official Hacker News Algolia search API (`hn.algolia.com`). Public data only
 
 ## Quick start
 
-1. Create a free account at [apify.com](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper) and copy your API token.
+1. Create a free account at [apify.com](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=quickstart) and copy your API token.
 2. `export APIFY_TOKEN=...`
 3. Run one of the examples:
 
@@ -51,23 +51,37 @@ Example input ([examples/input.json](examples/input.json)):
 }
 ```
 
+## FAQ
+
+**Is this allowed?**
+Yes, it uses HN's official public API.
+
+**How do I get all hiring posts?**
+Set mode to 'Who is hiring?' and leave queries empty.
+
 ## Use with AI agents (MCP)
 
 Add `https://mcp.apify.com/?actors=devteamdrew/hacker-news-scraper` as an MCP server in Claude, Cursor or any MCP client.
 
 ## Pricing
 
-See the [Apify Store page](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper) for current pay-per-result pricing.
+See the [Apify Store page](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=pricing) for current pay-per-result pricing.
+
+## Sample data
+
+Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/feeds/hacker-news-scraper/?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=sample-data).
 
 ## More data actors
 
-- [Bluesky Scraper & API – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
-- [Companies House Scraper – UK Company Data, Directors & Filings](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
-- [UK Planning Applications Scraper – 400+ Councils & Postcodes](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
-- [npm Scraper – Package Downloads, Dependencies & Maintainers](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
-- [GitHub Trending Scraper – Repos, Stars & Developers](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
-- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
-- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper)
+- [Bluesky Scraper & API – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [Companies House Scraper – UK Company Data, Directors & Filings](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [UK Planning Applications Scraper – 400+ Councils & Postcodes](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [npm Scraper – Package Downloads, Dependencies & Maintainers](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [GitHub Trending Scraper – Repos, Stars & Developers](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [SEC EDGAR Scraper – Filings Search, 10-K, 10-Q & 8-K](https://apify.com/devteamdrew/sec-edgar-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
+- [arXiv Scraper – Papers, Abstracts & Authors Search](https://apify.com/devteamdrew/arxiv-scraper?utm_source=github&utm_medium=readme&utm_campaign=hacker-news-scraper&utm_content=more)
 
 ## License
 
